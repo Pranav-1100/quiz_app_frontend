@@ -10,7 +10,7 @@ import 'package:flutter_application_2/models/user_model.dart';
 import 'package:flutter_application_2/models/leaderboard_entry.dart';
 
 class ApiService {
-  static const String baseUrl = "http://10.0.2.2:8080";
+  static const String baseUrl = "https://quiz-app-backend-1-midx.onrender.com";
 
   static Future<UserModel> createUser(String username) async {
     try {
